@@ -1,0 +1,174 @@
+nav {
+  position: fixed;
+  width: 100%;
+  background: #2e2e38;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 30;
+}
+
+.nav-logo-options {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding-left: 1rem;
+}
+
+.options-nav {
+  display: flex;
+  padding-left: 2rem;
+  list-style: none;
+  height: 4rem;
+}
+
+.options-nav div {
+  cursor: pointer;
+  width: inherit;
+  font-size: 0.8rem;
+  margin-left: 16px;
+  margin-right: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #2e2e38;
+}
+
+.options-nav div:hover {
+  border-bottom: 3px solid yellow;
+}
+
+.nav-log svg {
+  padding-left: 1rem;
+  height: 55px;
+  width: 120px;
+}
+
+.nav-log svg path {
+  fill: white;
+}
+
+.nav-log svg g polygon {
+  fill: white;
+}
+
+.right-side-icons {
+  display: flex;
+  padding-right: 1rem;
+}
+
+.right-side-icons div {
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: white;
+  padding-right: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.right-side-icons div i {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.hamburger {
+  display: block;
+  padding-right: 1rem;
+}
+
+.hamburger i {
+  cursor: pointer;
+  width: 3rem;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.right-border-ham {
+  border-right: 1px solid grey;
+}
+
+.side-navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  background: #2e2e38;
+  transform: translateX(500px);
+  right: 0;
+  top: 3rem;
+  height: 95vh;
+  transition: 0.2s ease-in-out;
+}
+
+.side-nav-options {
+  margin-top: 0.5rem;
+}
+
+.side-nav-options p {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: 1rem;
+  color: white;
+  border-left: 2px solid transparent;
+  padding-right: 10rem;
+  border-bottom: 1px solid white;
+}
+
+.side-nav-options p:hover {
+  border-left: 2px solid yellow;
+  background: #1d1d22;
+}
+
+.side-nav-down p {
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  width: 100%;
+  font-weight: 100;
+  padding: 1rem;
+  color: white;
+  border-left: 2px solid transparent;
+  padding-right: 10rem;
+  border-bottom: 1px solid white;
+  border-left: 4px solid transparent;
+}
+
+.side-nav-down p:hover {
+  border-left: 4px solid #292931;
+  background: #1d1d22;
+}
+
+.side-nav-down p i {
+  font-size: 1rem;
+  padding-right: 0.7rem;
+  padding-bottom: 0.5rem;
+}
+
+.border-bottom-down {
+  border-left: 1px solid white;
+}
+
+/***************** Media Queries *************************/
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .right-side-icons {
+    display: none;
+  }
+
+  .options-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .right-side-icons div p {
+    display: none;
+  }
+}

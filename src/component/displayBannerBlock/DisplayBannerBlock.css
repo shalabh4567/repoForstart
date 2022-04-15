@@ -1,0 +1,47 @@
+.about-union {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 93%;
+  height: 35vh;
+  background: #2e2e38;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-union p,
+h1 {
+  color: #fff;
+  padding: 1%;
+}
+
+.about-union p {
+  width: 70%;
+  text-align: center;
+  line-height: 30px;
+}
+
+.about-union button {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2e2e38;
+  border: 1px solid white;
+  transition: ease-in-out 0.1s;
+}
+
+.about-union button p {
+  font-weight: 600;
+  transition: ease-in-out 0.1s;
+}
+
+.about-union button:hover {
+  background: white;
+}
+
+.about-union button:hover p {
+  color: #2e2e38;
+}

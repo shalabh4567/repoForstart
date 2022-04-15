@@ -1,0 +1,36 @@
+.gallery {
+  width: 100%;
+  background-color: #2e2e38;
+  height: 85vh;
+}
+
+.gallery h1 {
+  padding-left: 4%;
+  margin-bottom: 3%;
+  margin-top: 0;
+}
+
+.gallery-inner {
+  padding-left: 4%;
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-written {
+  width: 32%;
+  height: 65vh;
+  overflow: hidden;
+}
+
+.gallery-written img {
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+  transition: ease-in-out 1s;
+  object-fit: cover;
+}
+
+.gallery-written img:hover {
+  transform: scale(1.2);
+}

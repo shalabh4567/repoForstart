@@ -1,0 +1,38 @@
+.upper-div {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(
+      180deg,
+      rgba(16, 14, 14, 0) 55.68%,
+      #2e2e38 88.07%
+    ),
+    url("../../images/ey_board_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 100% top 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.union-div {
+  width: 80%;
+  margin-left: 4%;
+  margin-bottom: 5%;
+}
+
+.union-div p,
+h1 {
+  color: white;
+  font-family: roboto, sans-serif;
+  padding: 1%;
+}
+
+.union-div p {
+  color: yellow;
+}
+
+.union-div h1 {
+  border-left: 2px solid yellow;
+}
